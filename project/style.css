@@ -1,7 +1,7 @@
 body {
     font-family: "Josefin Sans", serif;
     margin: 0;
-    color: navy;
+    color: #9BABBF;
     background-color: lightblue;
 }
 h1, h2, h3 {
@@ -17,20 +17,27 @@ header {
     padding: 2em;
 }
 header div {
-    color: #D9CBBA;
-    background-color: #35638cb9;
+    color: #F8F5F1;
+    background-color: #2b5373ad;
     padding: 1em;
     max-width: 98%;
     width: 26em;
 }
 figure {
     margin: 1em;
-    border-color: #D97904;
-    border-width: ;
+    border: #D97904;
+    border-width: 4px;
+    border-style: solid;
+    padding: .5em;
+    width: 355px;
+    background-color: #0D0D0D;
 }
 main {
     display: flex;
     flex-wrap: wrap;
+}
+figure img{
+    width: 100%;
 }
 a:link {
     color: gold;
@@ -40,4 +47,7 @@ a:visited {
 }
 a:hover {
     color: chocolate;
+}
+footer {
+    color: #35648C;
 }
