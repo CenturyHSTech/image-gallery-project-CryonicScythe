@@ -22,6 +22,7 @@ header div {
     padding: 1em;
     max-width: 98%;
     width: 26em;
+    border-radius: 10px 40px 30px;
 }
 figure {
     margin: 1em;
@@ -31,10 +32,17 @@ figure {
     padding: .5em;
     width: 355px;
     background-color: #0D0D0D;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px 20px 15px;
+    transition: transform .2s;
+}
+figure:hover {
+    transform: scale(1.05);
 }
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 figure img{
     width: 100%;
