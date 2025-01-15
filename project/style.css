@@ -1,8 +1,8 @@
 body {
     font-family: "Josefin Sans", serif;
     margin: 0;
-    color: #9BABBF;
-    background-color: lightblue;
+    color: #203E55;
+    background-color: #add8e6;
 }
 h1, h2, h3 {
     font-family: "Crimson Pro", serif;
@@ -18,7 +18,7 @@ header {
 }
 header div {
     color: #F8F5F1;
-    background-color: #2b5373ad;
+    background-color: #2b5373;
     padding: 1em;
     max-width: 98%;
     width: 26em;
@@ -31,6 +31,7 @@ figure {
     border-style: solid;
     padding: .5em;
     width: 355px;
+    color: #9BABBF;
     background-color: #0D0D0D;
     box-shadow: 5px 5px 5px black;
     border-radius: 5px 20px 15px;
@@ -57,5 +58,5 @@ a:hover {
     color: chocolate;
 }
 footer {
-    color: #35648C;
+    color: #203E55;
 }
